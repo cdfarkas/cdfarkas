@@ -11,15 +11,18 @@ I've learned management skills to share my knowledge and buid some amazing techn
 ![CSS3](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=FFF)
 ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=000)
 
-
 ## Platforms
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=FFF)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=FFF)
 
-## Tools
+## IDE
 ![VS Code](https://img.shields.io/badge/-VSCode-209ce9?style=flat&logo=visualstudiocode&logoColor=FFF)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=FFF)
+
+## Source/Release management
 ![Npm](https://img.shields.io/badge/-Npm-C31614?style=flat&logo=npm&logoColor=FFF)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=flat&logo=git&logoColor=FFF)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=FFF)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)
 ![Gitlab](https://img.shields.io/badge/-Gitlab-fd7e14?style=flat&logo=gitlab&logoColor=FFF)
 
 ## Build
@@ -33,6 +36,7 @@ I've learned management skills to share my knowledge and buid some amazing techn
 ## Libraries & Frameworks
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=React&logoColor=FFF)
 ![Redux](https://img.shields.io/badge/-Redux-61DAFB?style=flat&logo=Redux&logoColor=FFF)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Jquery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jQuery&logoColor=FFF)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=FFF)
 ![Handlebar](https://img.shields.io/badge/-Handlebar-f0772b?style=flat&logo=handlebarsdotjs&logoColor=000)
