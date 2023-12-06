@@ -2,7 +2,7 @@
 
 I am Clément Farkas and i love web technologies.
 
-I've made a career building an expertise with the front end part but since the Javascript ecosystem evolutions i've made my path into back end and devops.
+I've made a career building an expertise with the front end part but since the Javascript ecosystem evolutions i've made my path into tech management and devops.
 
 I've learned management skills to share my knowledge and buid some amazing technical apps.
 
