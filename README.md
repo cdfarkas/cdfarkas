@@ -38,7 +38,7 @@ I've learned management skills to share my knowledge and build some amazing tech
 ## Libraries & Frameworks
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=React&logoColor=FFF)
 ![Redux](https://img.shields.io/badge/-Redux-61DAFB?style=flat&logo=Redux&logoColor=FFF)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)
 ![Jquery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jQuery&logoColor=FFF)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=FFF)
 ![Handlebar](https://img.shields.io/badge/-Handlebar-f0772b?style=flat&logo=handlebarsdotjs&logoColor=000)
@@ -53,14 +53,13 @@ I've learned management skills to share my knowledge and build some amazing tech
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
+- 🔭 I’m currently working on a React component design system library
+- 🌱 I’m currently learning Gitlab actions and devops in general
 - 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 💬 Ask me about front end
+- 📫 How to reach me: [cfarkas.bsky.social](https://bsky.app/profile/cfarkas.bsky.social)
+- 😄 Pronouns: him
 
 Logos codes : https://github.com/simple-icons/simple-icons/blob/develop/slugs.md
+Badges examples : https://dev.to/envoy_/150-badges-for-github-pnk
 -->
