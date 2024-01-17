@@ -29,6 +29,7 @@ I've learned management skills to share my knowledge and build some amazing tech
 ## Build
 ![Webpack](https://img.shields.io/badge/-Webpack-3073b9?style=flat&logo=webpack&logoColor=FFF)
 ![Grunt](https://img.shields.io/badge/-Grunt-fd7e14?style=flat&logo=grunt&logoColor=FFF)
+![esbuild](https://img.shields.io/badge/Esbuild-FFCF00?style=flat&logo=esbuild&logoColor=black)
 
 ## Databases
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=MySQL&logoColor=FFF)
