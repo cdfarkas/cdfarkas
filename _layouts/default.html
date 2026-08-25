@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% assign page_title = page.title | default: site.title %}
+{% assign page_desc = page.description | default: site.description %}
+{% assign canonical = page.url | replace:'index.html','' | absolute_url %}
+
+<title>{{ page_title }}{% if page.title %} · {{ site.author }}{% endif %}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ canonical }}">
+
+<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:site_name" content="{{ site.author }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_desc }}">
+<meta name="author" content="{{ site.author }}">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📓</text></svg>">
+
+<style>
+:root{
+  --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --rule:#d1d9e0;
+  --link:#0969da; --code-bg:#f6f8fa; --quote:#8250df;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --rule:#3d444d;
+    --link:#4493f8; --code-bg:#151b23; --quote:#ab7df8;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:720px;margin:0 auto;padding:2.5rem 1.25rem 5rem}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3{line-height:1.3;margin:2.2rem 0 .8rem;font-weight:600}
+h1{font-size:1.9rem;margin-top:0;letter-spacing:-.01em}
+h2{font-size:1.35rem;padding-bottom:.3rem;border-bottom:1px solid var(--rule)}
+h3{font-size:1.1rem}
+p,ul,ol{margin:0 0 1.1rem}
+li{margin:.35rem 0}
+li>ul,li>ol{margin:.35rem 0}
+hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+blockquote{
+  margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--quote);color:var(--muted)
+}
+blockquote p{margin:.4rem 0}
+code{
+  background:var(--code-bg);padding:.15em .4em;border-radius:6px;
+  font:0.87em/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace
+}
+pre{
+  background:var(--code-bg);padding:1rem;border-radius:8px;
+  overflow-x:auto;border:1px solid var(--rule)
+}
+pre code{background:none;padding:0;font-size:.85rem;line-height:1.55}
+.table-scroll{overflow-x:auto;margin:0 0 1.2rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left}
+th{background:var(--code-bg);font-weight:600}
+img{max-width:100%;height:auto}
+.site-nav{
+  font-size:.9rem;color:var(--muted);margin-bottom:2.5rem;
+  padding-bottom:1rem;border-bottom:1px solid var(--rule)
+}
+.site-nav a{color:var(--muted)}
+.foot{
+  margin-top:4rem;padding-top:1.2rem;border-top:1px solid var(--rule);
+  font-size:.88rem;color:var(--muted)
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}">{{ site.author }}</a>
+    &nbsp;·&nbsp;
+    <a href="{{ '/notes/' | relative_url }}">notes</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/cdfarkas/cdfarkas">github</a>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    Found something wrong ? <a href="https://github.com/cdfarkas/cdfarkas/issues">Open an issue</a>, I'd rather be corrected than quoted.
+  </footer>
+
+</div>
+
+<script>
+// Wrap wide tables so they scroll inside their own box instead of the page.
+document.querySelectorAll('main table').forEach(function (t) {
+  var box = document.createElement('div');
+  box.className = 'table-scroll';
+  t.parentNode.insertBefore(box, t);
+  box.appendChild(t);
+});
+</script>
+</body>
+</html>
