@@ -1,3 +1,8 @@
+---
+title: "Green CI, white page"
+description: "A CJS-only transitive dependency plus an externalised React equals a shim that throws in the browser, and nothing in the pipeline executes the built bundle."
+---
+
 # Green CI, white page
 
 A component library that externalises React and bundles everything else will, sooner or later, pull in a CJS-only transitive module that calls `require('react')`. The bundler has nothing to resolve that to, so it emits a shim that throws. Every gate stays green. The consuming app shows a white page.
