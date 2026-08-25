@@ -1,3 +1,8 @@
+---
+title: "Subpath imports cut both ways"
+description: "The same import saves you 900 module resolutions or silently duplicates your library across every remote. The variable is your share scope, not who owns the package."
+---
+
 # Subpath imports cut both ways
 
 Importing `some-lib/narrow-thing` instead of `some-lib` is usually a win. But if `some-lib` is in your Module Federation share scope, the exact same move takes it out of the singleton and duplicates it across every remote.
