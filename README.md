@@ -2,7 +2,7 @@
 
 Frontend architect, France. Design systems, micro-frontends, and making AI assisted development reliable at team scale instead of impressive in a demo.
 
-Ten years in, my center of gravity moved from *writing the feature* to *making the feature cheap to write for everyone else*: the component nobody has to fork, the migration that lands across twenty repos without a war room, the CI signal you can actually trust.
+Twenty years in, my center of gravity has moved from *writing the feature* to *making the feature cheap to write for everyone else*: the component nobody has to fork, the migration that lands across twenty repos without a war room, the CI signal you can actually trust.
 
 ## What I work on
 
