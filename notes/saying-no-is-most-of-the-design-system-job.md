@@ -1,3 +1,8 @@
+---
+title: "Saying no is most of the design system job"
+description: "Eight rules I enforce in review on a design system consumed by a dozen apps, each with the case that produced it."
+---
+
 # Saying no is most of the design system job
 
 A design system consumed by a dozen apps is not a component folder. It is a public API you can't refactor unilaterally, owned by a team that isn't the one paying for your mistakes.

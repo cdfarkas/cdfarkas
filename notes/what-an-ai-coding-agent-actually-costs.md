@@ -1,3 +1,8 @@
+---
+title: "I measured my token spend, then got the conclusion wrong"
+description: "33 sessions out of 682 caused 86.8% of my cost. One division shows that is mostly where the work is, not where the waste is."
+---
+
 # I measured my token spend, then got the conclusion wrong
 
 I pulled 14 days of my own agent transcripts, found that **33 sessions out of 682 accounted for 86.8% of the cost**, and concluded the fix was session hygiene: end the session when the topic changes.

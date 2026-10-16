@@ -1,0 +1,20 @@
+title: Clément Farkas
+description: Frontend architecture, design systems, micro-frontends, and where AI-assisted development breaks down.
+url: https://cdfarkas.github.io
+baseurl: /cdfarkas
+author: Clément Farkas
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+permalink: pretty
+
+exclude:
+  - .meta
+  - README.md
+  - notes/README.md
+
+plugins: []

@@ -1,3 +1,8 @@
+---
+title: "Four pivots to one frontend shell"
+description: "Three months turning a fleet of independently deployed React apps into one composed platform. The plan changed four times, three of them tracing to the same root cause."
+---
+
 # Four pivots to one frontend shell
 
 Three months turning a fleet of independently deployed React apps into one composed platform. The plan changed four times.
